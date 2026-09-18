@@ -1,5 +1,7 @@
 # Redes-Generativas-Adversariales (GANs)
 
+## Descripción
+
 Implementación de una **Red Generativa Adversarial (GAN)**, arquitectura de aprendizaje no supervisado propuesta por Ian Goodfellow y su equipo en 2014, aplicada en este caso a la generación de imágenes.
 
 ## ¿Cómo funciona una GAN?
@@ -13,6 +15,16 @@ Implementación de una **Red Generativa Adversarial (GAN)**, arquitectura de apr
 - `RedesGenerativas.ipynb` — notebook con la definición, entrenamiento y evaluación de la GAN.
 - `training_checkpoints/` — checkpoints guardados durante el entrenamiento.
 - Imágenes `.png` generadas durante las distintas épocas de entrenamiento.
+
+## Diagrama
+
+[Explorar la arquitectura interactiva en GitDiagram](https://gitdiagram.com/HoracioLaphitz/Redes-Generativas-Adversariales)
+
+```mermaid
+flowchart LR
+  A["RedesGenerativas.ipynb + imagen_de_epoca_0001.png + imagen_de_epoca_0002.png"] --> B["Procesamiento de Redes-Generativas-Adversariales"]
+  B --> C["Resultados del proyecto"]
+```
 
 ## Tecnologías
 
